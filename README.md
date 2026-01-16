@@ -1,49 +1,13 @@
-# Starlight Starter Kit: Basics
+# Númeno RPG
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+Númeno RPG é um sistema de TTRPG que tem como objetivo ser altamente modular e expansivo, se adaptando a cada jogo. [Possui um sistema de fichas online!](https://ohyearsonist.github.io/campanheiro/)
 
-```
-npm create astro@latest -- --template starlight
-```
+Em Númeno RPG, cada rolagem tem consequências com o sistema de pontos de destino e sina, que balanceiam automaticamente as ações dos jogadores e do mestre, além de dar outra dimensão de significado para os resultados dos dados.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+O sistema vem com mecânicas de roleplay que buscam trazer incentivos para a interpretação dos personagens sem ser intrusivo, oficializando mecânicas comumente usadas como regras da casa.
 
-## 🚀 Project Structure
+O sistema de combate com uma iniciativa dinâmica e reações simplificadas busca trazer um combate mais simples e rápido, para que todos possam se envolver na batalha sem esperar milênios e sem dez minutos de preparação pra decidir quem vai primeiro.
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+O sistema de dano padroniza a vida dos personagens para que todos possam se entender nos números e compreender com mais facilidade o estado atual do grupo.
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
-
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
-
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
-
-Static assets, like favicons, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+Nesse sistema também se encontra uma expansiva lista de 15 classes e 25 espécies, de Bardos a Palafreneiros, Sacis, Engenheiros, Vampiros, Fungos, Aliens, Eflos, Anões, Felídeos e Minotauros!
