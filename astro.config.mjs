@@ -6,20 +6,29 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Númeno RPG',
+			social: [],
+      tableOfContents: {minHeadingLevel: 1, maxHeadingLevel: 3},
+      defaultLocale: "pt-br",
+      credits: true,
+      customCss: ["./src/theme.css"],
 			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+        {
+          label: 'Regras',
+          autogenerate: {directory: 'Regras'},
+        },
+        {
+          label: "Classes",
+          autogenerate: {directory: "Classes"}
+        },
+        {
+          label: "Espécies",
+          autogenerate: {directory: "Espécies"}
+        },
+        {
+          label: "Changelog",
+          autogenerate: {directory: "Changelog"}
+        },
 			],
 		}),
 	],
