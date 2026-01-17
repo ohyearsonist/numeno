@@ -34,6 +34,10 @@ export default defineConfig({
         autogenerate: {directory: "Espécies"}
       },
       {
+        label: "Equipamentos",
+        autogenerate: {directory: "Equipamentos"}
+      },
+      {
         label: "Changelog",
         autogenerate: {directory: "Changelog"}
       },
