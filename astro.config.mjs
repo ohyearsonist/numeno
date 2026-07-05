@@ -12,7 +12,7 @@ export default defineConfig({
       social: [],
       tableOfContents: { minHeadingLevel: 1, maxHeadingLevel: 3 },
       defaultLocale: "pt-br",
-      favicon: "./public/favicon.svg",
+      favicon: "favicon.svg",
       logo: {
         dark: "./src/assets/Logo Númeno.svg",
         light: "./src/assets/Logo Númeno (light theme).svg",
