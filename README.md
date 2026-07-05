@@ -1,4 +1,16 @@
-# Númeno RPG
+<p align="center">
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="public/README Cover Dark Theme.png">
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="public/README Cover Light Theme.png">
+  <img 
+    alt="Capa de Númeno"
+    src="public/README Cover.png">
+</picture>
+</p>
 
 Númeno é um sistema de TTRPG aberto e livre [(no sentido de liberdade)](https://fsf.org) desenhado para permitir o maior nível de customização e adaptabilidade para qualquer tipo de campanha ou one-shot de RPG. Inspirado em mecânicas de Dungeons & Dragons, Ordem Paranormal, Daggerheart, Vampiro, Kids on Bikes e outros.
 
